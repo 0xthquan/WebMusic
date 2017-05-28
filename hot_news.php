@@ -6,7 +6,6 @@ $i = 0;
 <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-        <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <?php
             while ($row = mysql_fetch_array($result)) {
@@ -28,10 +27,10 @@ $i = 0;
                         <h4><a href="./?mod=tinhot&id=<?php echo $id ?>" style="color: gold"><b><?php echo $tieuDe ?></b></a></h4>
                         <p><?php echo $tomTat ?></p>
                     </div>
-                </div><!-- End Item -->
+                </div>
             <?php } ?>
 
-        </div><!-- End Carousel Inner -->
+        </div>
 
 
         <ul class="list-group col-sm-4">
@@ -56,7 +55,6 @@ $i = 0;
             } ?>
         </ul>
 
-        <!-- Controls -->
         <div class="carousel-controls">
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -66,6 +64,6 @@ $i = 0;
             </a>
         </div>
 
-    </div><!-- End Carousel -->
-    <hr>
+    </div>
 </div>
+<hr>

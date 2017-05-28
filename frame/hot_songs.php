@@ -4,7 +4,7 @@
         <hr>
         <div class="album" style="padding: 10px 10px 0 10px;">
             <?php
-            $sql = "select * from nghenhac order by id desc limit 10";
+            $sql = "select * from nghenhac order by LuotNghe desc limit 10";
             $result = mysql_query($sql);
                 $i = 0;
                 while ($row = mysql_fetch_array($result)) {

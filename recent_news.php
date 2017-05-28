@@ -1,5 +1,5 @@
 <div class="col-md-7" style="margin-left: 70px; margin-top: 20px">
-    <h4 class="cont-title"><span>Tin mới</span></h4>
+    <h4 class="cont-title">Tin mới</h4>
     <section id="blog-section" >
         <div class="container">
             <div class="row">
@@ -20,7 +20,7 @@
                                         <div class="thumb img-responsive" <?php echo "style=\"background-image: url('$anhDaiDien');\""; ?> ></div>
                                         <div class="title_link content-title">
                                             <div class="title_link text-center">
-                                                <h4><b><a href=""><?php echo "$tieuDe"; ?></a></b></h4>
+                                                <h4><b><a href=<?php echo "'./?mod=tintuc&id=$id'";  ?>><?php echo "$tieuDe"; ?></a></b></h4>
                                             </div>
                                         </div>
                                         <hr class="line">

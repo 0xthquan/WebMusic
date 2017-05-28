@@ -132,8 +132,9 @@ clear: both;
 	margin-bottom: 32px;
 	text-align: left;
 	text-transform: capitalize;
+  color: black;
 }
-.cont-title span {
+.cont-title p {
 	background:#FFFFFF;
 	color: #2387D9;
 	margin: 0 15px 0 0;
@@ -166,7 +167,7 @@ clear: both;
 
 .thumbnail{
 	width: 100%;
-	height: 420px;
+	height: 480px;
 }
 
 /*------------End--------------*/
@@ -445,3 +446,13 @@ a:hover {
 .title_link a:hover{
   color: dodgerblue;
 }
+
+.thumb-header{
+    width: 100%;
+    height: 160px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} 

@@ -32,13 +32,8 @@
                     </article>
                     <hr>
                 <?php } ?>
-</div>
+                </div>
             </section>
-
-
-            <hr>
-
-            
+            <hr>            
         </div>
-
     </div>

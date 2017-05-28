@@ -18,10 +18,10 @@
 	<script src="js/slider.js"></script>
 	
 </head>
-<body >
+<body>
 	<div class="top-frame" >
 		<div class="search-frame">
-			<img src="res/images/images.jpg" width="100%" height="200px">
+			<div class="thumb-header img-responsive" style="background-image: url('res/images/background.jpg')" style="height: 180px"></div>
 		</div>
 		<div class="menu-frame">
 			<?php include("frame/menu-top.php");?>
@@ -31,6 +31,5 @@
 	<div class="main-frame">
 		<?php require ("main.php");?>
 	</div>
-
 </body>
 </html>
